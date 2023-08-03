@@ -1,0 +1,8 @@
+body {
+    display: flex;
+    font-family: Tahoma, Trebuchet MS, Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 95px;
+}
