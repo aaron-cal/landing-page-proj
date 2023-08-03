@@ -2,7 +2,67 @@ body {
     display: flex;
     font-family: Tahoma, Trebuchet MS, Verdana, Geneva, Tahoma, sans-serif;
     flex-direction: column;
+    margin: 0;
+    min-height: auto;
+    min-width: none;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 32px;
+    display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 95px;
+    align-items: baseline;
+    margin-bottom: 0;
+    min-height: auto;
+    min-width: none;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    gap: 12px;
+    padding: 30px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.signupsection {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 32px;
+    display: flex;
+
+}
+
+.helpfulinfosection {
+    padding: 50px;
+    display: flex;
+
+}
+
+.quotesection {
+background-color: #e5e7eb;
+color: #1F2937;
+padding: 32px;
+display: flex;
+}
+
+.lowersignupsec {
+    padding: 32px;
+    display: flex;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px;
+    display: flex;
+
 }
