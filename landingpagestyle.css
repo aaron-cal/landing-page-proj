@@ -32,6 +32,7 @@ body {
     flex-wrap: nowrap;
     gap: 30px;
     padding: 30px;
+    margin: 0px 20px;
     align-self: center;
 }
 
@@ -148,13 +149,16 @@ gap: 8px;
     padding: 50px 30px;
     background-color: #3882f6;
     color: #F9FAF8;
+    border-radius: 12px;
 }
 
-.lowersignupsec.cta.calltoaction {
-    font-size: 32px;
+.lowersignupsec .cta .calltoaction {
+    font-size: 26px;
+    font-weight: bold;
+
 }
 
-.lowersignupsec.cta.longercta {
+.lowersignupsec .cta .longercta {
     font-size: 12px;
 }
 
@@ -163,8 +167,8 @@ gap: 8px;
     color: white;
     padding: 12px;
     text-align: center;
-    border: 20px;
-    border-color: #e5e7eb;
+    border-radius: 12px;
+    border-color: white;
 }
 
 
@@ -174,4 +178,5 @@ gap: 8px;
     padding: 10px;
     display: flex;
     justify-content: center;
+    font-size: 18px;
 }
